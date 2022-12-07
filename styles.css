@@ -1,0 +1,100 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+    margin: 0;
+}
+header {
+    background-color:cadetblue;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    color:black;
+    text-align: center;
+    border-radius: 5px;
+    font-family: "Trirong" ;
+}
+#profile-pic {
+    width: 250px;
+    height: 300px;
+    border-radius: 90px;
+}
+nav {
+    color: black;
+    text-decoration: none;
+    text-align: left;
+    text-align: top;
+    display: vertical;
+    
+    
+}
+ul {
+    list-style-type: none;
+    color: black;
+    
+   
+}
+li {
+    display: inline;
+}
+
+a {
+    display: inline-block;
+    text-align: right;
+    color: black;
+    text-decoration: underline;
+    font-size: 14pt;
+ 
+    vertical-align: text-top;
+   
+    
+}
+#about {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+    background-color: grey;
+ }
+ .project-holder {
+    columns: 2;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+ }
+ #albums {
+    padding-top: 25px;
+    background-color:grey ;
+    padding-left: 5px;
+    text-align: center;
+    margin: auto;
+    
+ }
+  .class, img {
+    width: 80%;
+    height:20vw;
+ }
+ 
+ footer {
+    text-align: center;
+    background-color: grey;
+    padding: 5px;
+ }
+  form {
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr 1fr;
+    
+ }
+ 
+
+
+
+
+
