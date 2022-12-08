@@ -75,7 +75,7 @@ a {
     text-align: center;
  }
  .animals {
-    columns: 3;
+    columns: 2;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 25px;
